@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -10,13 +10,16 @@
 </head>
 
 <BODY>
+<div class="box_1">
     <a href="https://lin.ee/p85Vutu"><img src="bosai_LINE.jpg"></a></img>
+</div>
+<div class="box_2">
 <div class="kakomi-smart1"><span class="title-smart1">安全安心なんようLINE</span>
 市民の皆様が安全で安心して暮らせるよう、防災・防犯等に関する情報を「安全安心なんよう」LINEにより発信します。<BR><BR>
 また、災害時には、被害箇所などを画像で送ることで、迅速な応急対応に繋げることができます。<BR><BR>
 新たに友達登録が必要です。<BR>
 </div>
-
+</div>
 </BODY>
 
 
@@ -26,12 +29,28 @@ body {
     width: 340px;
 }
 
+/* ブロックで分ける */
+.box_1 {
+vertical-align: top; 
+   display: inline-block;
+   width:110px;
+   height:110px;
+}
+ 
+.box_2{
+vertical-align: top; 
+  display: inline-block;
+  width:220px;
+  height:220px;
+}
+
+
 /* スマート　囲み枠　1 */
 .kakomi-smart1 {
  position: relative;
- margin: 2em auto;
+ margin: 0.3em auto;
  padding: 2.5em 1em 1em;
- width: 90%; /* ボックス幅 */
+ width: 95%; /* ボックス幅 */
  border-style: solid;
  border-color: #ff0000; /* 枠の色 */
  border-width: 5px 1px 1px;
